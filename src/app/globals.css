@@ -93,6 +93,14 @@ a {
   }
 }
 
+body {
+  width: 100vw;
+}
+
+.section-header {
+  text-align: center;
+}
+
 /********** Nav Bar **********/
 nav {
   width: 100vw;
@@ -102,4 +110,15 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+/********** Guiding Principles **********/
+.principles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.principle {
+  margin: 1rem 2rem;
 }
