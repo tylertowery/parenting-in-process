@@ -7,17 +7,18 @@ import GuidingPrinciples from './components/GuidingPrinciples';
 import Icons from './components/Icons';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
+import Layout from './components/Layout';
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Banner />
-      <Welcome />
-      <Process />
-      <GuidingPrinciples />
-      <Icons />
-      <AboutMe />
-      <Footer />
+      <Layout>
+        <Welcome />
+        <Process />
+        <GuidingPrinciples />
+        <Icons />
+        <AboutMe />
+      </Layout>
     </main>
   )
 }

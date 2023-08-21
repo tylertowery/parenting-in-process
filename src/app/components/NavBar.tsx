@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 interface NavBarProps {
 
@@ -12,8 +13,8 @@ const NavBar = ({ }: NavBarProps) => {
         <h4>Navigation Bar</h4>
       </div>
       <div className="nav-bar">
-        <p>Logo</p>
-        <p>About</p>
+        <Link href="/">Logo</Link>
+        <Link href="/about">About</Link>
         <p>Programs</p>
         <p>Contact</p>
         <p>Blog</p>

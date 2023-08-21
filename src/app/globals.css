@@ -101,9 +101,9 @@ body {
   text-align: center;
 }
 
-.section {
-  width: 90%;
-}
+/* .section {
+
+} */
 
 /********** Nav Bar **********/
 nav {
@@ -140,6 +140,7 @@ nav {
 .icons {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .icon {
