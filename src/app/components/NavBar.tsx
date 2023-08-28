@@ -15,9 +15,8 @@ const NavBar = ({ }: NavBarProps) => {
       <div className="nav-bar">
         <Link href="/">Logo</Link>
         <Link href="/about">About</Link>
-        <p>Programs</p>
-        <p>Contact</p>
-        <p>Blog</p>
+        <Link href="/programs">Programs</Link>
+        <Link href="/contact">Contact</Link>
       </div>
     </nav>
   )
