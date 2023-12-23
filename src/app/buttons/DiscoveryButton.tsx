@@ -5,8 +5,9 @@ interface DiscoveryButtonProps {
 }
 
 const DiscoveryButton = ({ }: DiscoveryButtonProps) => {
-  const handleDiscovery = (event) => {
-    console.log('Booking a free discovery call now');
+  const handleDiscovery = () => {
+    const externalUrl = "https://calendly.com/parentinginprocess";
+    window.open(externalUrl, '_blank');
   }
 
   return (

@@ -5,7 +5,7 @@ interface BannerProps {
 
 }
 
-const Banner = ({ }: BannerProps) => {
+const Banner: React.FC<BannerProps> = ({ }: BannerProps) => {
 
   return (
     <div>

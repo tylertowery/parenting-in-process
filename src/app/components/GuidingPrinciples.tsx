@@ -5,7 +5,7 @@ interface GuidingPrinciplesProps {
 const GuidingPrinciples = ({ }: GuidingPrinciplesProps) => {
 
   return (
-    <div className="section">
+    <div className="section guiding-principles">
       <div>
         <h1 className="section-header">Guiding Principles Section</h1>
       </div>

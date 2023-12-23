@@ -5,7 +5,7 @@ interface AboutMeProps {
 const AboutMe = ({ }: AboutMeProps) => {
 
   return (
-    <div className="section">
+    <div className="section about-me">
       <h1 className="section-header">About Me Section</h1>
       <div>
         <div className="picture"></div>
